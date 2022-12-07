@@ -1,0 +1,25 @@
+{
+  "id": 4,
+  "globalId": "3d00cfd3-2f4b-45e4-9dec-cdebd0c8362c",
+  "namespace": {
+    "id": 1,
+    "globalId": "3a4280ec-4968-4752-8bbb-caa1302e6cde",
+    "portalId": 0,
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "ChangeLogRed",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "language": "csharp",
+    "compiledRazorLocation": "host",
+    "additionalAssemblies": "",
+    "debug": false,
+    "type": "razor"
+  }
+}

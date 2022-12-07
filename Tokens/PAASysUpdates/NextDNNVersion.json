@@ -1,0 +1,25 @@
+{
+  "id": 15,
+  "globalId": "769d6416-9f7a-44f7-94a4-b1bc2d383422",
+  "namespace": {
+    "id": 1,
+    "globalId": "3a4280ec-4968-4752-8bbb-caa1302e6cde",
+    "portalId": 0,
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "NextDNNVersion",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "url": "https://services.plantanapp.com/api/GetNextDNNversion?NextPAAversion=[TknParams:NextPAAVersion]",
+    "get": "",
+    "post": "",
+    "headers": "",
+    "type": "http"
+  }
+}
